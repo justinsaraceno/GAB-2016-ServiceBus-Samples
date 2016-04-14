@@ -1,0 +1,10 @@
+{
+  "name": "TopicLastNameAllSubscriber.nodejs",
+  "version": "0.0.0",
+  "description": "TopicLastNameAllSubscriber.nodejs",
+  "main": "app.js",
+  "author": {
+    "name": "justin.saraceno",
+    "email": ""
+  }
+}
