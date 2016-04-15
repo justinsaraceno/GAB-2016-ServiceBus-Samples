@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace QueueReceiver
 {
+    using Microsoft.Azure;
     using Microsoft.ServiceBus;
     using Microsoft.ServiceBus.Messaging;
-    using Microsoft.WindowsAzure;
 
     class Program
     {
