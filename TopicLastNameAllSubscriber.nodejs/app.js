@@ -1,5 +1,5 @@
 ﻿var azure = require('azure');
-var serviceBusService = azure.createServiceBusService("Endpoint=sb://pf-innovation-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=paNONg7ob6EODpUVKI8e8xsYM7Ep2LlGXMgOjQ8bDao=");
+var serviceBusService = azure.createServiceBusService("Endpoint=sb://[namespace].servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=[key]=");
 var topicName = "LastNameChange";
 var subscriptionName = "AllMessagesForNode";
 
